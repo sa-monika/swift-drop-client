@@ -27,9 +27,10 @@ const Works = () => {
       para: "We offer tailored delivery solutions for small businesses and corporate clients, making bulk and regular deliveries simple and reliable.",
     },
   ];
+
   return (
     <div className="my-20">
-      <h1 className="text-5xl font-bold">How It Works</h1>
+      <h1 className="text-5xl font-bold text-secondary">How It Works</h1>
       <div className=" p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {item.map((i) => (
           <div className="rounded-lg shadow-md bg-gray-100 p-5 hover:bg-white">
