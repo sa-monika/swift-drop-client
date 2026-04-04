@@ -63,7 +63,9 @@ const Navbar = () => {
         </div>
         <div className="navbar-end gap-2">
           <a className="btn">Sign In</a>
-          <a className="btn bg-primary ">Sign Up</a>
+          <a className="btn bg-primary hover:bg-secondary hover:text-white">
+            Sign Up
+          </a>
         </div>
       </div>
     </div>
