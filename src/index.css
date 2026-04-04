@@ -8,7 +8,7 @@
   name: "light";
   default: true;
   --color-primary: #f3971b;
-  --color-secondary: #a1520d;
+  --color-secondary: #bd5800;
 }
 
 .body {
